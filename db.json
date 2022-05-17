@@ -1,14 +1,334 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+"Products":[
+ {
+  "id": 1,
+  "name_ru": "Шведская стенка P-19 (Цвет: Белый)",
+  "price": 19620,
+  "discount": 15,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/turnik1.png",
+  "category": 1
+ },
+ {
+  "id": 2,
+  "name_ru": "Шведская стенка P-3 (Цвет: Антик Серебро)",
+  "price": 11320,
+  "discount": 15,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/turnik2.png",
+  "category": 1
+ },
+ {
+  "id": 3,
+  "name_ru": "Шведская стенка P-4 (Цвет: Светофор)",
+  "price": 14990,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/turnik3.png",
+  "category": 1
+ },
+ {
+  "id": 4,
+  "name_ru": "Шведская стенка P-19 (Цвет: Антик серебро)",
+  "price": 20140,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/turnik4.png",
+  "category": 1
+ },
+ {
+  "id": 5,
+  "name_ru": "Турник настенный Torneo",
+  "price": 19620,
+  "discount": 20,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 2
+ },
+ {
+  "id": 6,
+  "name_ru": "Турник настенный Torneo A-990WG",
+  "price": 11320,
+  "discount": 20,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 2
+ },
+ {
+  "id": 7,
+  "name_ru": "Турник дверной Torneo",
+  "price": 14990,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 2
+ },
+ {
+  "id": 8,
+  "name_ru": "Турник в дверной проем Torneo Door Gym Pro",
+  "price": 20140,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 2
+ },
+ {
+  "id": 9,
+  "name_ru": "УСК Богатырь Romana, качели гнездо Romana",
+  "price": 31560,
+  "discount": 10,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/kach1.png",
+  "category": 3
+ },
+ {
+  "id": 10,
+  "name_ru": "Спортивный детский комплекс “Юниор-Плюс”...",
+  "price": 18310,
+  "discount": 10,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/kach2.png",
+  "category": 3
+ },
+ {
+  "id": 11,
+  "name_ru": "Детский уличный спортивный комплекс «Юниор» (с сеткой)...",
+  "price": 20840,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/kach3.png",
+  "category": 3
+ },
+ {
+  "id": 12,
+  "name_ru": "Уличный спортивный турник Романа",
+  "price": 24490,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/kach4.png",
+  "category": 3
+ },
+ {
+  "id": 13,
+  "name_ru": "Гантель разборная стальная (гриф + блины) 15 кг",
+  "price": 2620,
+  "discount": 15,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/tosh1.png",
+  "category": 4
+ },
+ {
+  "id": 14,
+  "name_ru": "Гантель разборная (гриф + блины) 24,1 кг",
+  "price": 4620,
+  "discount": 15,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/tosh2.png",
+  "category": 4
+ },
+ {
+  "id": 15,
+  "name_ru": "Гантель разборная (гриф + блины) 26,6 кг",
+  "price": 4720,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/tosh3.png",
+  "category": 4
+ },
+ {
+  "id": 16,
+  "name_ru": "Гиря «Горилла» 16,0 кг",
+  "price": 6475,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": "\/img\/tosh4.png",
+  "category": 4
+ },
+ {
+  "id": 17,
+  "name_ru": "Стойка Domsen Fitness Ds15 черный",
+  "price": 31560,
+  "discount": 20,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 5
+ },
+ {
+  "id": 18,
+  "name_ru": "Стойка Domsen Fitness Ds26 черный",
+  "price": 18310,
+  "discount": 20,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 5
+ },
+ {
+  "id": 19,
+  "name_ru": "Стойка Domsen Fitness Ds28 черный",
+  "price": 20840,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 5
+ },
+ {
+  "id": 20,
+  "name_ru": "Стойка Domsen Fitness Ds36 черный",
+  "price": 24490,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 5
+ },
+ {
+  "id": 21,
+  "name_ru": "FILIPPOV-DYNASTY Боксерский мешок DIKO 40",
+  "price": 2620,
+  "discount": 10,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 6
+ },
+ {
+  "id": 22,
+  "name_ru": "FILIPPOV-DYNASTY Боксерский мешок",
+  "price": 4620,
+  "discount": 10,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 6
+ },
+ {
+  "id": 23,
+  "name_ru": "FILIPPOV-DYNASTY Боксерский мешок onePRO FILIPPOV",
+  "price": 4720,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 6
+ },
+ {
+  "id": 24,
+  "name_ru": "Лапы-ракетки Fight EXPERT Boxing MF",
+  "price": 6475,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 6
+ },
+ {
+  "id": 25,
+  "name_ru": "Эллиптический тренажер BH FITNESS FDR20",
+  "price": 31560,
+  "discount": 20,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 7
+ },
+ {
+  "id": 26,
+  "name_ru": "Беговая дорожка BH FITNESS F2W TFT",
+  "price": 18310,
+  "discount": 20,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 7
+ },
+ {
+  "id": 27,
+  "name_ru": "Беговая дорожка Oxygen New Classic Aurum AC LCD",
+  "price": 20840,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 7
+ },
+ {
+  "id": 28,
+  "name_ru": "Беговая дорожка BH Fitness F9R TFT",
+  "price": 24490,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 7
+ },
+ {
+  "id": 29,
+  "name_ru": "Каркасный батут EVO Jump Outside 8FT 244х244х210 см green\r",
+  "price": 19620,
+  "discount": 10,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 8
+ },
+ {
+  "id": 30,
+  "name_ru": "Каркасный батут Unix Line 12ft Supreme Game 366х366х269 см blue\r",
+  "price": 11320,
+  "discount": 10,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 8
+ },
+ {
+  "id": 31,
+  "name_ru": "Каркасный батут Unix Line 6ft Simple (inside) 183х183х215 см зеленый\r",
+  "price": 14990,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 8
+ },
+ {
+  "id": 32,
+  "name_ru": "Каркасный батут SWOLLEN Lite 10 FT 305х305х238 см green\r",
+  "price": 20140,
+  "discount": null,
+  "about_ru": "<p>Some about text<\/p>",
+  "image_link": null,
+  "category": 8
+ }
+],
+"Categories":[
+ {
+  "id": 1,
+  "name_ru": "Шведские стенки",
+  "image_link": null
+ },
+ {
+  "id": 2,
+  "name_ru": "Турники",
+  "image_link": null
+ },
+ {
+  "id": 3,
+  "name_ru": "Уличные комплексы",
+  "image_link": null
+ },
+ {
+  "id": 4,
+  "name_ru": "Тяжелая атлетика",
+  "image_link": null
+ },
+ {
+  "id": 5,
+  "name_ru": "Стойки под штангу",
+  "image_link": null
+ },
+ {
+  "id": 6,
+  "name_ru": "Единоборства",
+  "image_link": null
+ },
+ {
+  "id": 7,
+  "name_ru": "Фитнес",
+  "image_link": null
+ },
+ {
+  "id": 8,
+  "name_ru": "Батуты",
+  "image_link": null
+ }
+]
 }
